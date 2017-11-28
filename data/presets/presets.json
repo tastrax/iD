@@ -1855,7 +1855,7 @@
                 "name",
                 "operator",
                 "address",
-                "building_area",
+                "building",
                 "opening_hours"
             ],
             "geometry": [
@@ -13205,6 +13205,28 @@
                 "marker"
             ],
             "name": "Railway Milestone"
+        },
+        "railway/miniature": {
+            "icon": "railway-rail",
+            "geometry": [
+                "line"
+            ],
+            "tags": {
+                "railway": "miniature"
+            },
+            "fields": [
+                "name",
+                "structure",
+                "gauge",
+                "electrified",
+                "service_rail"
+            ],
+            "terms": [
+                "rideable miniature railway",
+                "narrow gauge railway",
+                "minimum gauge railway"
+            ],
+            "name": "Miniature Railway"
         },
         "railway/monorail": {
             "icon": "railway-monorail",
